@@ -1,0 +1,143 @@
+/* #website_header {
+	position: fix;
+	color: #7DEDFF;
+	 font-size: 25px;
+	  font-weight: bold;
+	   background: #39A2DB;
+	 
+	   width: all;
+
+} */
+	    
+.website_header {
+	color: #88FFF7;
+	 font-size: 20px;
+	  font-weight: bold;
+	  font: small-caps;
+	  padding-bottom: 30px;
+	  padding-top: 10px;
+	   background: #39A2DB;
+	   font-family:  tahoma;
+	   box-shadow: 0px 8px 24px rgba(0,0,0,15) ;
+	   
+
+}
+
+#MiddleSign {
+	background: #7DEDFF;
+	color: #02475E;
+	font-family:  tahoma;
+	width:  500px ;
+	border: double 5px #053742;
+	border-radius: 10px;
+	margin-top: 100px;
+	padding-top: 0.5px;
+	padding: 5px;
+	box-shadow: 0px 8px 24px rgba(0,0,0,15);
+	
+
+}
+
+
+#classesFramework {
+
+    color: #02475E;
+	background: #7DEDFF;
+	font-family:  tahoma;
+
+	box-shadow: 0px 8px 24px rgba(0,0,0,15);
+	border: solid 5px #053742;
+	border-radius: 10px;
+
+}
+
+
+.right_bar {
+	width:200px;
+    height:300px;
+ 
+ margin:10px;
+ margin-top: 50px;
+
+ margin-left: 15px;
+	
+	
+	float: right;
+}
+
+.left_bar {
+	width:200px;
+    height:300px;
+ 
+ margin:10px;
+ margin-top: 50px;
+
+ margin-right: 15px;
+	
+	
+	float: left;
+}
+
+#Photo {
+
+margin-top: 70px;
+border: solid;
+border-radius: 100%;
+
+
+}
+
+
+.framework {
+	background: lightblue;
+	color: #02475E;
+	
+	font-family:  tahoma;
+	
+	border: double 5px #053742;
+	border-radius: 110px;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 163px;
+	\transition: opacity 1s;
+
+}
+.framework:hover {
+	opacity: 0.8;
+}
+.framework {
+	opacity: o.4;
+	
+}
+.middleButton {
+	width: 200px;
+    height:70px;
+ margin:10px;
+ margin-top: 50px;
+ margin-right: 20px;
+
+	float: center;
+	
+}
+.middleButton:hover {
+	opacity: 0.8;
+}
+.middleButton:active {
+	opacity: 0.4;
+}
+
+
+
+
+h3{
+  background:#222;
+  color:#f9f9f9;
+   padding:5px;
+}
+
+.red {
+	color: red;
+	font-weight: 2px;
+}
+
+

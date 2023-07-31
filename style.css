@@ -32,6 +32,11 @@
 #Body {
 	/* background:#053742;  */
 	/* background-image: url('files/Virtual_World.png'); */
+	/* background-color:#02475E;
+	background-image: url('files/WiStars.svg')
+	,url('files/SolarStarsMinimaliassticLinear.svg')
+	,url('files/MdiStarsOutline.svg');
+	background-size: 15px; */
 }
 #classesFramework {
 
@@ -47,8 +52,8 @@
 	width:200px;
 	height:300px;
  
- margin:10px;
- margin-top: 50px;
+ /* margin:10px;
+ margin-top: 50px; */
 
  margin-right: 15px;
 	
@@ -78,10 +83,9 @@
 	width:200px;
 	height:300px;
  
- margin:10px;
+ /* margin:10px;
  margin-top: 50px;
-
- margin-left: 15px;
+ margin-left: 15px; */
 	
 	text-align: center;
 	float: right;
@@ -98,7 +102,7 @@ border-radius: 100%;
 }
 
 
-.framework {
+.right_bar_buttons {
 	background: lightblue;
 	color: #02475E;
 	
@@ -112,17 +116,22 @@ border-radius: 100%;
 	transition: opacity 1s;
 
 }
-.framework:hover {
+.right_bar_buttons:hover {
 	opacity: 0.8;
+	width: 170px;
+	height: 30px;
+	margin-top: 30px;
 }
-.framework {
+.right_bar_buttons:active {
 	opacity: o.4;
-	
+	width: 175px;
+	height: 32px;
 }
+
 .middleButton {
 	width: 200px;
     height:70px;
- margin:;
+ /* margin:; */
  margin-top: 50px;
  
 
@@ -154,3 +163,4 @@ border-radius: 100%;
 	padding-left: 50px; 
 	
 }
+

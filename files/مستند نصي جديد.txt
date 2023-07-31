@@ -15,3 +15,28 @@
 				let android = document.querySelector("#one")
 				android.innerText= "java"
 				</script>
+
+
+				android.style.color = "blue"
+
+
+
+
+
+
+				
+
+			<script>
+				let skills = document.querySelector(".skills")
+				let java = document.createElement("li")
+				java.innerText = "Java"
+				skills.append(java)
+				</script>
+
+
+
+				<script>
+				let skills = document.querySelector(".skills")
+				let js = document.querySelectorAll("li")[1]
+				js.remove()
+				</script>

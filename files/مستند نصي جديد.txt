@@ -1,0 +1,17 @@
+هذا الموقع قيد البناء
+راح أحاول بهذا الموقع أني أطبق كل ما أتعلمه في برمجة المواقع بحيث يكون مرآة لي ولخبراتي وتعتبر هوية رقمية لشخصيتي
+
+--
+<input type = "submit" value="Send" style="margin-top: 10px">
+
+
+<script>
+		let kotlin = document.getElementById(firstOP)
+		console.log(kotlin)
+	</script> 
+
+    
+			<script>
+				let android = document.querySelector("#one")
+				android.innerText= "java"
+				</script>

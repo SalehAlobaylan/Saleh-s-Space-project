@@ -14,31 +14,25 @@
 	 font-size: 20px;
 	  font-weight: bold;
 	  font: small-caps;
-	  padding-bottom: 30px;
-	  padding-top: 10px;
+	  padding-bottom: 15px;
+	  padding-top: 5px;
 	   background: #39A2DB;
 	   font-family:  tahoma;
 	   box-shadow: 0px 8px 24px rgba(0,0,0,15) ;
 	   
 
 }
-
-#MiddleSign {
-	background: #7DEDFF;
-	color: #02475E;
-	font-family:  tahoma;
-	width:  500px ;
-	border: double 5px #053742;
-	border-radius: 10px;
-	margin-top: 100px;
-	padding-top: 0.5px;
-	padding: 5px;
-	box-shadow: 0px 8px 24px rgba(0,0,0,15);
-	
-
+#html {
+	background-color:#02475E;
+	background-image: url('files/WiStars.svg')
+	,url('files/SolarStarsMinimaliassticLinear.svg')
+	,url('files/MdiStarsOutline.svg');
+	background-size: 15px;
 }
-
-
+#Body {
+	/* background:#053742;  */
+	/* background-image: url('files/Virtual_World.png'); */
+}
 #classesFramework {
 
     color: #02475E;
@@ -48,35 +42,51 @@
 	box-shadow: 0px 8px 24px rgba(0,0,0,15);
 	border: solid 5px #053742;
 	border-radius: 10px;
-
 }
-
-
-.right_bar {
-	width:200px;
-    height:300px;
- 
- margin:10px;
- margin-top: 50px;
-
- margin-left: 15px;
-	
-	
-	float: right;
-}
-
 .left_bar {
 	width:200px;
-    height:300px;
+	height:300px;
  
  margin:10px;
  margin-top: 50px;
 
  margin-right: 15px;
 	
-	
+	text-align: center;
 	float: left;
 }
+
+#MiddleSign {
+	background: #7DEDFF;
+	color: #02475E;
+	font-family:  tahoma;
+	width:  300px ;
+	border: double 5px #053742;
+	border-radius: 10px;
+	/* margin-top: 100px; */
+	margin: auto;
+	text-align: center;
+	padding-top: 0.5px;
+	padding: 10px;
+	box-shadow: 0px 8px 24px rgba(0,0,0,15);
+	
+	
+}
+
+
+.right_bar {
+	width:200px;
+	height:300px;
+ 
+ margin:10px;
+ margin-top: 50px;
+
+ margin-left: 15px;
+	
+	text-align: center;
+	float: right;
+}
+
 
 #Photo {
 
@@ -99,7 +109,7 @@ border-radius: 100%;
 	margin-top: 20px;
 	margin-left: 20px;
 	width: 163px;
-	\transition: opacity 1s;
+	transition: opacity 1s;
 
 }
 .framework:hover {
@@ -112,15 +122,18 @@ border-radius: 100%;
 .middleButton {
 	width: 200px;
     height:70px;
- margin:10px;
+ margin:;
  margin-top: 50px;
- margin-right: 20px;
+ 
 
 	float: center;
 	
 }
 .middleButton:hover {
 	opacity: 0.8;
+	width: 220px;
+	height: 80px;
+	font-size: 20px;
 }
 .middleButton:active {
 	opacity: 0.4;
@@ -129,15 +142,15 @@ border-radius: 100%;
 
 
 
-h3{
-  background:#222;
-  color:#f9f9f9;
-   padding:5px;
-}
 
 .red {
 	color: red;
-	font-weight: 2px;
+	font-weight: 30px;
+	font-size: large;
 }
 
 
+.skills {
+	padding-left: 50px; 
+	
+}
